@@ -1,0 +1,87 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(231, 234, 235);
+    line-height: 1.5;
+}
+h1 {
+    font-size: 70px;
+}
+#firstp {
+    font-size: 30px;
+}
+h1,.button {
+    text-transform: capitalize;
+}
+#back {
+    background-image: linear-gradient(rgba(168, 182, 219, 0.7), rgba(166, 193, 201, 0.692)),url(1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    text-decoration: none;
+    border-radius: 35%;
+    border: rgb(231, 234, 235) 2px solid;
+    color: rgb(231, 234, 235);
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.button:hover {
+    color: rgb(216, 166, 51);
+    background-color: rgb(231, 234, 235);
+}
+#first {
+    background-color: rgb(231, 234, 235);
+    color: rgb(216, 166, 51);
+    padding: 20px 10px;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#second {
+    color: rgb(231, 234, 235);
+    background-color: rgb(216, 166, 51);
+    padding: 20px 10px;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box1,.box3 {
+background-color:rgb(231, 234, 235) ;
+color: rgb(216, 166, 51);
+}
+.box2 {
+    background-color: tomato;
+}
+#third {
+    display: flex;
+}
+#third div {
+    padding: 20px;
+}
+.row {
+    display: flex;
+    margin-top: 3px;
+}
+.column {
+    flex: 25%;
+    padding: 3px;
+}
+.row img:hover {
+    opacity: .7;
+    transform: scale(1.03);
+}
+.end {
+    text-decoration: none;
+    border:none;
+    color: rgb(0, 103, 138);
+    font-size: 20px;  
+    background-color: rgb(235, 235, 235);
+}
